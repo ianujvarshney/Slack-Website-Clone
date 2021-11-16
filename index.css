@@ -21,6 +21,7 @@ nav ul li{
 }
 .navbar ul li, .navbar-nav{
    font-weight: bold;
+   font-size: 15px;
 }
 
 .card-group .card
@@ -31,11 +32,13 @@ nav ul li{
     margin-right: 30px;;
 }
 form .btn{
+    font-size: 15px;
     margin-right: 30px;
     font-weight: bold;
     padding:11px;
 }
 #btn1{
+    font-size: 15px;
     color: #611f69;
     border:1px solid #611f69;
     padding: 10px 12px 10px 12px;
@@ -55,7 +58,7 @@ form .btn{
 }
 .card-body #btn2{
     padding: 20px 40px 20px 40px;
-    border-radius: 3px solid #616161;
+    border-radius: 3px;
     margin: 20px;
 }
 .card-body #new{
@@ -69,8 +72,8 @@ form .btn{
     border: none;
 } 
 .navbar img{
-    height: 150px;
-    width: 140px ;
+    height: 100px;
+    width:  105px ;
 }
 .dropdown-menu{
     border-radius: 8px;
@@ -84,6 +87,20 @@ form .btn{
 .dropdown-item:hover{
     background: rgb(46, 46, 192);
 }
-.dropdown-toggle:hover .dropdown-menu{
+.dropdown-menu:hover{
     display: block;
+  }
+  button .button-image
+  {
+      height: 20px;
+       margin: 20px; 
+      object-fit: cover;
+  }
+
+
+
+  .button-text{
+      height: 20px;
+      font-size:20px;
+      font-weight: bold;
   }
