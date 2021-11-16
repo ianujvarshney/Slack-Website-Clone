@@ -83,24 +83,32 @@ form .btn{
 .dropdown-item{
     padding:8px 100px 10px 10px;
     font-weight: 200;
+    font-family: Tahoma;
 }
 .dropdown-item:hover{
     background: rgb(46, 46, 192);
 }
-.dropdown-menu:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
-  }
-  button .button-image
-  {
-      height: 20px;
-       margin: 20px; 
-      object-fit: cover;
-  }
-
-
-
-  .button-text{
-      height: 20px;
-      font-size:20px;
-      font-weight: bold;
-  }
+}
+.nav-download__icon{
+    margin-left: 10px;
+}
+/* .u-align--center{
+} */
+.dropdown-menu .u-align--center{
+    list-style: none;
+    color: black;
+    /* margin: 5px; */
+    /* padding:8px 100px 10px 10px; */
+}
+.dropdown-menu a{
+    font-family: Tahoma;
+    text-decoration: none;
+    font-weight: 300;
+}
+.dropdown-menu a:hover{
+    background: rgb(46, 46, 192);
+    margin: 0;
+    padding: 15px 32px 13px;
+}
